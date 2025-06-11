@@ -1,10 +1,10 @@
 "use client";
 
 import React from "react";
-import { SplineScene } from "@/components/ui/splite";
 import { Card } from "@/components/ui/card";
 import { Spotlight } from "@/components/ui/Spotlight";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function sect() {
   return (
@@ -24,11 +24,11 @@ export default function sect() {
               <span className="md:text-4xl text-sky-400 font-bold block mt-4">
                 Développeur Web Front-End & Entrepreneur Web
               </span>
-              <p className="text-lg text-gray-300 mt-4 text-left">
+              {/* <p className="text-lg text-gray-300 mt-4 text-left">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
                 dolorem illo, ducimus. Lorem ipsum dolor sit amet consectetur
                 adipisicing elit. Est laborum unde asperiores.
-              </p>
+              </p> */}
               <Button className="h-12 w-32 rounded-full bg-sky-600 hover:bg-sky-700  mt-8 text-white text-lg">
                 Mon CV
               </Button>
@@ -36,10 +36,13 @@ export default function sect() {
           </div>
 
           {/* Right content */}
-          <div className="flex-1 relative">
-            <SplineScene
-              scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
-              className="w-full h-full"
+          <div className="">
+            <Image
+              src="/hero.png"
+              alt="Destination Icon"
+              width={400}
+              height={300}
+              className=""
             />
           </div>
         </div>

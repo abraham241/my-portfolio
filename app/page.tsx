@@ -19,11 +19,11 @@ export default function Home() {
       <section className="flex-col flex justify-center items-center md:flex-row px-5 md:px-20 gap-10">
         <div className="flex justify-center  items-center  m-10 ">
           <Image
-            src="/Ab.png"
+            src="/imagechat.png"
             alt="Destination Icon"
             width={400}
-            height={500}
-            className="rounded-full"
+            height={300}
+            className=""
           />
         </div>
         <div className="w-1/2 ">
