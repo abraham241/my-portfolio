@@ -13,7 +13,7 @@ export default function Navbar() {
   };
 
   const menuItems = [
-    { label: "Accueil", href: "#" },
+    { label: "Accueil", href: "/Dash" },
     { label: "Profil", href: "#" },
     { label: "Compétences", href: "#" },
     { label: "Portfolio", href: "#" },
